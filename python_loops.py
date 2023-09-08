@@ -20,7 +20,13 @@ for name in names:
         continue
     print(f'Hey, {name}!')
 
+# Using range with a list
+for index in range(len(names)):
+    print(f'Name at index {index}: {names[index]}')
 
+# Using range with numbers
+for number in range(1, 6):
+    print(f'Number: {number}')
 
 # While loop
 count = 0
